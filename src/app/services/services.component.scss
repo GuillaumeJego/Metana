@@ -1,0 +1,23 @@
+.services {
+    padding: 50px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  .cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  .card {
+    width: 200px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  .card h4 {
+    color: #00ccff;
+  }
