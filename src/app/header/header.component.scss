@@ -1,13 +1,31 @@
-header {
+@import '../../../../Metana/src/style/colorPalette.scss';
+
+
+.content {
     display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+
+#logoId, #loginId{
+  width: 20vw;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    // background-image: url('../../../../Metana/assets/images/Metana/logo\ metana.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #1a1a1a;
-    color: white;
-  }
-  nav a {
-    margin-left: 20px;
-    color: #00ccff;
-    text-decoration: none;
-  }
+}
+
+#headerNavBarId{
+  width: 50vw;   
+}
+
